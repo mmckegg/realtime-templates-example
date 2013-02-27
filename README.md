@@ -5,7 +5,15 @@ An example of using all of the realtime-templates modules together in a single s
 
 ## Usage
 
-Run `npm start` and navigate to http://localhost:9999
+Run `npm start` and navigate to http://localhost:9999/objects/1
+
+Open up the web inspector console and type:
+
+```js
+context.pushChange({name: "Tester", body: "Added in realtime", id: 9, parent_id: 1}, {source: 'user'})
+```
+
+Now refresh the page - the change should be preserved.
 
 ## Featured Packages
 

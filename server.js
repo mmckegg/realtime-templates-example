@@ -88,7 +88,7 @@ var server = http.createServer(function(req, res){
 })
 server.listen(9999);
 
-console.log("open http://localhost:9999")
+console.log("open http://localhost:9999/objects/1")
 
 shoe(function (stream) {
   var datasource = null
