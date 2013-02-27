@@ -1,0 +1,4 @@
+test-db/*
+*.log
+static/bundle.js
+node_modules/*

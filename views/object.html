@@ -1,0 +1,10 @@
+<h1 t:bind='current_object.title'/>
+
+<div t:bind='current_object.body' />
+
+<h2>Comments</h2>
+
+<div t:repeat='items'>
+  <h3 t:bind='.name'/>
+  <p t:bind='.body' />
+</div>

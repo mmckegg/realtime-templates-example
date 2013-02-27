@@ -1,0 +1,26 @@
+{
+  "name": "realtime-templates-example",
+  "version": "0.0.0",
+  "description": "An example of using all of the realtime-templates modules together in a single site.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ecstatic": "~0.4.0",
+    "split": "~0.2.1",
+    "browserify": "~2.2.5",
+    "shoe": "~0.0.7",
+    "realtime-templates": "~0.2.0",
+    "json-context": "~0.1.0",
+    "level-json-context": "~0.0.0",
+    "levelup": "~0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmckegg/realtime-templates-example"
+  },
+  "author": "Matt McKegg",
+  "license": "MIT"
+}
